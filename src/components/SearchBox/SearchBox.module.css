@@ -1,0 +1,18 @@
+.container {
+  margin-bottom: 15px;
+}
+.container p {
+  margin: 0;
+}
+.input {
+  box-sizing: border-box;
+  border: 2px solid #959494;
+  border-radius: 5px;
+  width: 250px;
+  height: 20px;
+  padding: 10px;
+}
+.container input:focus,
+.container input:hover {
+  border: 2px solid black;
+}

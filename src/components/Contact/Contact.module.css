@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+.info p {
+  margin: 0;
+}
+.btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  /*height: 35px;*/
+  /*width: 80px;*/
+  background-color: white;
+  border-radius: 5px;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #c1c1c1;
+}
